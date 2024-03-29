@@ -1,0 +1,15 @@
+﻿{
+  "name": "cookie",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "",
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "permissions": ["cookies"],
+  "action": {
+    "default_title": "cookie",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "cookie.png"
+    }
+  }
+}
